@@ -1,4 +1,4 @@
-stub
+Stub (the class that implements the remote interface)
 
 The stub is an object, acts as a gateway for the client side. All the outgoing requests are routed through it. It resides at the client side and represents the remote object. When the caller invokes method on the stub object, it does the following tasks:
 
@@ -8,7 +8,7 @@ It waits for the result
 It reads (unmarshals) the return value or exception, and
 It finally, returns the value to the caller.
 
-skeleton
+Skeleton (the stub's counterpart on server-side)
 
 The skeleton is an object, acts as a gateway for the server side object. All the incoming requests are routed through it. When the skeleton receives the incoming request, it does the following tasks:
 
