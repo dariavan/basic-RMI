@@ -1,1 +1,0 @@
-RMI is all about stubs and skeletons. Enjoy!
